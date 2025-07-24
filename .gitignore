@@ -1,0 +1,9 @@
+# Ignore all contents of the data folder
+/data/*
+
+# But do not ignore the data folder itself
+!data/
+
+# Optionally, keep a .gitkeep or README in data/
+!data/.gitkeep
+!data/README.md
